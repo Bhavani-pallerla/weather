@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+}
+.main{
+    margin:auto;
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 400px;
+    background: linear-gradient(to right, rgb(57, 144, 216), rgb(29, 29, 217) );
+    margin-top: 25px;
+    padding-bottom:30px;
+    text-align: center;
+}
+.title{
+    padding: 10px 0;
+    font-size: 40px;
+    /* text-align: center; */
+}
+.input{
+    margin:10px 0;
+}
+#location-input{
+    /* background-color: gray; */
+    border: 1px solid gray;
+    outline:none;
+    height: 30px;
+    font-size: 16px;
+    width: 60%;
+    padding: 8px 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+#location-input:focus{
+    box-shadow: 0px 3px 3px black;
+}
+#btn:focus{
+    box-shadow: 0px 2px 2px black;
+    
+}
+#btn:hover{
+    background-color: #1eccf8;
+}
+#btn{
+    width: 20%;
+    background-color: rgb(12, 142, 207);
+    border: 1px solid gray;
+    font-size:16px;
+    padding: 2px 10px;
+    height:30px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    /* left: 20px; */
+    margin-left: -5px;
+}
+.temp{
+    font-size: 64px;
+    
+}
+#weather{
+    font-size: 32px;
+    padding: 8px;
+
+}
+#location{
+    font-size: 20px;
+}
+/* @media screen and (min-width:768px) {
+    .main{
+        margin-top:54px;
+        margin-left: 193px;
+    }
+}
+@media screen and (max-width:425px) {
+    .main{
+        margin-top:8px;
+        margin-left: 12px;
+    }
+}
+@media screen and (max-width:375px) {
+    .main{
+        width:362px;
+        margin-top: 3px;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (max-width:320px) {
+    .main{
+       width: 295px;
+    }
+} */
+/* @media screen and (min-width:1024px){
+    #btn{
+        height: 47px;
+    }
+    #location-input{
+        height: 47px;
+    }
+    .main{
+        margin-left: 320px;
+    }
+    .title{
+        font-size: 55px;
+    }
+} */
+/* @media screen and (width:2560px){
+    .title{
+        font-size: 80px;
+    }
+    .main{
+        padding:133px;
+        height: 900px;
+        width: 780px;
+        margin-top: 500px;
+        margin-left: 925px;
+    }
+    .temp{
+        font-size: 80px;
+    }
+    #weather{
+        font-size:64px;
+    }
+    #location{
+        font-size: 40px;
+    }
+    #btn{
+        height: 80px;
+        font-size: 28px;
+    }
+    #location-input{
+        height: 80px;
+        font-size: 28px;
+        width: auto;
+    }
+} */
